@@ -47,7 +47,7 @@ app.use(express.urlencoded({ extended: true }));
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
 // ─── Routes ─────────────────────────────────────────
-app.get('/api/health', (req, res) => res.json({ status: 'ok', service: 'ChatApp API 💬' }));
+app.get('', (req, res) => res.json({ status: 'ok', service: 'ChatApp API 💬' }));
 app.use('/api/auth',     authRoutes);
 app.use('/api/users',    userRoutes);
 app.use('/api/messages', messageRoutes);
@@ -72,4 +72,4 @@ process.on('unhandledRejection', (err) => {
   server.close(() => process.exit(1));
 });
 
-module.exports = { app, server, io };
+module.exports = app; // Export for testing

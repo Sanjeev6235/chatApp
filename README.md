@@ -9,7 +9,7 @@ A full-stack, production-grade real-time chat application built with MongoDB, Ex
 ## 🌐 Live Demo
 
 - 🔗 Frontend: https://chat-app-wine-nine.vercel.app
-- 🔗 Backend: https://chat-app-lhcv.vercel.app/api/health
+- 🔗 Backend: https://chat-app-lhcv.vercel.app
 
 ---
 
