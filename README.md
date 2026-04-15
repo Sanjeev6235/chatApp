@@ -1,6 +1,15 @@
 # 💬 ChatApp — Real-Time MERN Chat Application
+![MERN](https://img.shields.io/badge/MERN-Stack-green)
+![Socket.io](https://img.shields.io/badge/RealTime-Socket.io-black)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 A full-stack, production-grade real-time chat application built with MongoDB, Express.js, React (Vite), Node.js, Socket.io, and Tailwind CSS.
+
+## 🌐 Live Demo
+
+- 🔗 Frontend: https://chat-app-wine-nine.vercel.app
+- 🔗 Backend: https://chat-app-lhcv.vercel.app/api/health
 
 ---
 

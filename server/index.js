@@ -71,3 +71,5 @@ process.on('unhandledRejection', (err) => {
   console.error('UNHANDLED REJECTION:', err.message);
   server.close(() => process.exit(1));
 });
+
+module.exports = { app, server, io };
